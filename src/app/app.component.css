@@ -1,0 +1,79 @@
+*{
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signIn{
+    width: 60vh;
+    height: 60%;
+    padding: 1rem;
+    background-color: #e8ecef;
+    margin-top: 20vh;
+    margin-left: 15vh;
+    text-align: center;
+    margin-bottom: 40%;
+}
+
+.signinbtn{
+    background-color: #007bfd;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form > input{
+    width: 90%;
+    padding: 0.3rem;
+}
+
+input[type="password"]{
+    margin-bottom: 1rem;
+}
+
+span{
+    font-size:0.8rem;
+}
+
+form p{
+    font-size:0.8rem;
+    color:#807e7e;
+}
+
+/* Task2 */
+
+.appv2{
+    background-color: #e8ecef;
+    padding:2rem;
+    border-bottom: 1px solid rgb(214, 214, 214);;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 0.7rem;
+    margin-left:1rem;
+    border-radius: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn.light{
+    color: green;
+    background-color: rgb(171, 240, 171);
+    border:none;
+}
+
+.date{
+    background-color: rgb(184, 179, 179);
+    padding:5px;
+    border-radius: 10px;
+    padding-left:15px;
+    padding-right:15px;
+
+}
+
+.head,.date{
+    margin-left: 10px;
+    display: inline-block;
+}
